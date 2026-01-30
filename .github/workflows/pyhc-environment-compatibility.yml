@@ -15,6 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+      # TODO: switch back to @v1 instead of @main
       - name: Check PyHC Environment Compatibility
-        uses: heliophysicsPy/pyhc-actions/pyhc-env-compat@v1
+        uses: heliophysicsPy/pyhc-actions/pyhc-env-compat@main
