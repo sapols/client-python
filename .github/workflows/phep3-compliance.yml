@@ -15,6 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # TODO: switch back to @v1 instead of @main
+
       - name: Check PHEP 3 Compliance
-        uses: heliophysicsPy/pyhc-actions/phep3-compliance@main
+        uses: heliophysicsPy/pyhc-actions/phep3-compliance@v1
